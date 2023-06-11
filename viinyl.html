@@ -1,0 +1,98 @@
+<html>
+  <head>
+    <title>Viinyl</title>
+    <link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/7GzHeMib9NP6oYrp4zoq9LiNm6YqTLf3VR71od4o-tqRvnMvlcIzS5lK927s-qSBgj5ddWi8ESHGz2_MvKt6hTU25RxYKpNfcJ6tlHUdHWEOeXx9d4qv5iwckS_0rjqnP74IslHb6Q=w2400">
+  </head>
+  <body>
+    <h1>Viinyl</h1>
+    <button id="create">Create a Viinyl</button>
+    <button id="create" onclick="window.location.href='link.html';">Viinyl to Link</button>
+    <br>
+    <br>
+    <div id="preview">
+      <h2>Preview your image here by pressing 'Ctrl + V'</h2>
+    </div>
+    <!--
+        <textarea id="box"></textarea>
+        <button id="save">Save</button>
+        <button id="open">Open</button>
+    -->
+  </body>
+  <style>
+    #create {
+      height: 100px;
+      width: 100px;
+      border-radius: 5px;
+      background-color: crimson;
+      cursor: pointer;
+      font-family: BD;
+      color: #FFFDD0;
+      border-color: transparent;
+    } 
+    button {
+      border-radius: 5px;
+      background-color:#FFFF00;
+      cursor: pointer;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color:#FF0000;
+      font: bold;
+      border-color: transparent;
+    }
+    #preview {
+      width: 500px;
+      height: 500px;
+      background-color:crimson;
+    }
+    h1 {    
+            text-align: center;
+            color: #FFFDD0;
+            font-size: 50px;
+            font-family: BD;
+            transition: all .4s ease;
+        }
+
+        h1:hover {
+            transition: 0.2s;
+            color: #000080;
+            font-family: Simp;
+            -webkit-text-stroke: 0.5px #FFFF00;
+            font-size: 50px;
+            font-family: Simp;
+        }
+    h2 {
+      text-align: center;
+      color: #FFFDD0;
+      font-size: 25px;
+      font-family: BD;
+      transition: all .4s ease;
+    }
+    h2:hover {
+      transition: 0.5s;
+    border-style:dashed;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+    transition: all .4s ease;
+    }
+    textarea {
+      background: none;
+      color: #FFFDD0;
+      font-size: 25px;
+      font-family: BD;
+      border: double 8px orange;
+    }
+
+    body {
+      background-color: #4A0404;
+    }
+
+    @font-face {
+      font-family: BD;
+      src: url(BD.otf);
+    }
+    @font-face {
+    font-family: Simp;
+    src: url(simpson.otf)
+}
+  </style>  
+ <script src="store.js"></script>
+
+</html>
