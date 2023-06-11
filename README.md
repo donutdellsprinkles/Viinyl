@@ -1,5 +1,5 @@
 # What is Viinyl?
-
+<img src="Viinyl.png">
 Viinyl is a web app which allows you to store sort of past card like images that have text over them. You can then share it to friends and family and you can also revisit the latest Viinyl you created years into the future by just pressing the Viinyl button which will retreive your latest Viinyl.
 # Storage
 It stores both images and text. Copy paste your image and press the viinyl button and then add some text over the image. Press save to save both the image and text over it.
