@@ -1,4 +1,4 @@
-# Viinyl
+
 #What is Viinyl?
 Viinyl is a web app which allows you to store sort of past card like images that have text over them. You can then share it to friends and family and you can also revisit the latest Viinyl you created years into the future by just pressing the Viinyl button which will retreive your latest Viinyl.
 Webapp that allows you to create some post card type of memory capsule
